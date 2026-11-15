@@ -1,0 +1,13 @@
+{
+  "name": "mockdock",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Run a configurable local HTTP mock API with route matching, JSON responses, optional latency, and request logs.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

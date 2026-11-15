@@ -1,0 +1,5 @@
+[
+  {"method":"GET","path":"/api/health","status":200,"body":{"ok":true,"service":"mockdock"}},
+  {"method":"GET","path":"/api/users/:id","status":200,"delayMs":150,"body":{"id":"{{id}}","name":"Sample User"}},
+  {"method":"POST","path":"/api/orders","status":201,"body":{"created":true,"message":"This is a mock response"}}
+]
